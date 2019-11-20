@@ -1,0 +1,266 @@
+/* 左边主体 */
+#leftsec{
+    width:78%;
+    margin-right:2%;
+}
+/* 书籍详情 */
+#detall{
+    height:370px;
+    margin-left:40px;
+}
+li{
+    float:left;
+}
+#bookdetail>div{
+    width:650px;
+    margin-left:35px;
+}
+#bookdetail>div>div,#bookdetail>div>ul{
+    width:100%;
+    display:inline-block;
+}
+#bookdetail b{
+    font-size:27px;
+    color:#333;
+}
+#bookdetail .blue,#bookdetail .red{
+    border:1px solid #66ccdd;
+    width:40px;height:20px;
+    border-radius:4px;
+    line-height:20px;
+    font-size:14px;
+    color:#66ccdd;
+}
+      
+#bookdetail .red{
+    border:1px solid #ff4c2f;
+    color:#ff4c2f;
+}
+#bookdetail button{
+    width:130px;height:35px;
+    border-radius: 6px;
+    margin:60px 25px 0 0;
+}
+#mulu li{
+    width:200px;height:50px;
+    line-height:50px;
+    text-align: center;
+    border-bottom:1px solid #ddd;
+}
+#mulu li:first-child{
+    border-bottom:4px solid #ff4c2f;
+}
+#mulu>div{
+    border-bottom: 1px solid #ddd;
+    padding-bottom:15px;
+}
+#zuixin span{
+    float: left;
+    width:50%;
+}
+#zuixin span:nth-child(2){
+    text-align: right;
+}
+/* 打赏 */
+#money{
+    margin-top:15px;
+}
+#money>h3{
+    margin: 1px 1px 1px 1px;
+}
+#ds img{
+    width:35px;
+    position:absolute;
+    bottom: 3px;left:0px;
+    margin:auto;
+    transition:1s;
+}
+#ds>div:first-child:hover img{
+    bottom:15px;
+}
+#ds>div:nth-child(3):hover img{
+    bottom:15px;
+}
+#ds{
+    width:60%;
+}
+.ds{
+    width:40%;
+    height:273px;
+    margin:20px 4% 0;
+}
+.ds>div{
+    width:35px;height:40px;
+    position: relative;
+    left: 93px;
+    margin-top:40px;
+}
+.ds>div>div{
+    width:35px;height:10px;
+    background: rgb(240,240,240);
+    border-top:2px solid #999;
+    position: absolute;
+    bottom: 0;
+}
+.ds{
+    text-align: center;
+}
+.ds button{
+    width:150px;
+    height:35px;
+    color:white;
+    font-size:16px;
+    border-radius: 70px;
+    margin-top:10px;
+}
+.fenge{
+    height:260px;
+    margin-top:17px;
+    width:.1px;
+    border-right:1px solid #999;
+}
+/* 本书粉丝动态 */
+#fsdt{
+    width:38%;
+    float: left;
+    padding: 0 2% 0;
+    text-align: center;
+}
+#fsdt>div:first-child{
+    height:70px;
+    width:100%;
+    margin-top:20px;    
+    border-bottom:1px solid  #ddd;
+}
+#fsdt>div:last-child{
+    height:203px;
+    width:100%;  
+}
+#fsdt>div:last-child>div span{
+    padding-bottom:2px ;
+    border-bottom: 1px solid #d4d4d4;
+}
+#fsdt>div:last-child>div img{
+    width:25px;
+}
+
+/* 评论 */
+#pinglun>ul>li>button{
+    width:50px;height:25px;
+    border-radius: 5px;
+}
+#pinglun img{
+    width:40px;
+}
+#pinglun>div>div{
+    height:50px;
+}
+#pinglun>div{
+    border-bottom:1px solid #ddd;
+}
+
+/* 右边主体 */
+#rightsec{
+    width:20%;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+/* 评分订阅 */
+#rightsec>div:first-child{
+    height:345px;width:100%;
+    position: relative;
+}
+#rightsec .dy{
+    text-align: right;
+    display: block;
+    position: absolute;
+    right: 40px;
+}
+#rightsec .dy:last-child{
+    bottom: 80px;
+}
+/* 作者 */
+#rightsec>div:nth-child(2){
+    height:75px;
+    margin-left:35px;
+}
+#rightsec>div:nth-child(2)>img{
+    height:55px;
+}
+#rightsec>div:nth-child(2)>div{
+    display: inline-block;
+    width:100px;
+}
+#rightsec>div:nth-child(2)>div>span:last-child{
+    display: inline-block;
+    width: 80px;height:20px;
+    text-align: center;
+    border-radius: 30px;
+}
+#rightsec>table{
+    width:100%;
+}
+#rightsec td{
+    text-align: center;
+}
+/*全部作品 */
+#booklunbo{
+    text-align: center;
+}
+#booklunbo img{
+    width:100px;
+    margin: auto;
+    display: block;
+}
+#booklunbo{
+    padding-bottom:10px;
+}
+/* 粉丝排行 */
+#fensi span{
+    font-size:14px;
+    color:#333;
+}
+#fensi span:first-child{
+    width:20px;
+    height:20px;
+    font-size:12px;
+    border-radius: 50%;
+    color:white;
+    display: inline-block;
+    text-align:center;
+    line-height: 20px;
+    margin:0 15px 0 30px
+}
+#fensi li{
+    width:100%;
+    margin-top:10px;
+    position: relative;
+}
+#fensi span:last-child{
+    color:#888;
+    position:absolute;
+    right:25px;    
+}
+#fensi img{
+    width:36px;
+    border-radius: 50%;
+    position:absolute;
+    right:25px;
+}
+#fensi li>div{
+    display:inline-block;
+}
+/* 同类推荐 */
+#tongtj img{
+    width:70px;
+}
+#tongtj li>div{
+    width:100px;
+    height:100px;
+} 
+#tongtj span{
+    font-size:14px;
+}
+#tongtj span:nth-child(2){
+    font-size:12px;
+}

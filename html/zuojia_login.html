@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>作家登录</title>
+    <link rel="stylesheet" href="../css/zuojia.css">
+</head>
+<body>
+    <header>
+        <img src="../image/logozj.png" >
+    </header>
+    <section>
+        <ul>
+            <li>
+               <a href="">账号登录</a> 
+            </li>
+            <li>
+               <a href="">QQ登录</a> 
+            </li>
+        </ul>
+        <br>
+        <input id="zname" type="text" placeholder="用户名">
+        <br>
+        <input id="zpwd" type="password" placeholder="密码">
+        <br>
+        <input id="yz" type="text" placeholder="验证码">
+
+        <div onclick="code()" id="codes">3e4F</div>
+
+        <br>
+        <button class="mb-10">登录</button>
+        <div class="text-center mb-5">
+            <a class="font-14" href="http://127.0.0.1:5500/html/zuojia_reg.html">我要注册 </a>
+            |
+            <a class="font-14" href=""> 忘记密码</a>
+        </div>
+       
+        <div class="text-center">
+            <input id="bool" type="checkbox">
+            <span class="font-12">
+                同意
+                <a href="" class="text-bluelight">《用户服务协议》</a>
+                和
+               <a href="" class="text-bluelight">《隐私政策》</a> 
+            </span>  
+        </div>
+        
+    </section>
+</body>
+
+<script>
+function code(){
+    var arr="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZ7410852963XCVBNM";
+    arr=arr.split("");
+    
+    console.log(arr);
+    var str="";
+    for(var i=0;i<4;i++){
+        var index=Math.floor(Math.random()*arr.length);
+        str+=arr[index]+"  ";
+    }
+    codes.innerHTML=str;
+}
+
+
+</script>
+
+</html>

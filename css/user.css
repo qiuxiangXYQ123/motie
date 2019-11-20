@@ -1,0 +1,177 @@
+/*头部信息，*/
+#loghead>div b{
+	font-size:30px;
+}
+#loghead{
+	margin-top:2rem;
+	margin-bottom:30px;
+}
+#loghead a:first-child:hover{
+	color:#ff4c2f;
+	border-bottom:2px solid #ff4c2f;
+}
+#loghead>div:first-child li+li{
+	margin-left:4%;
+}
+#loghead>div>ul>li{
+	float:left;
+	font-size:16px;
+	height:35px;
+	line-height:35px;
+	margin-left:2%;
+}
+
+#loghead>div>input{
+	display:block;
+	width:240px;height:33px;
+	border:1px solid rgba(143,143,143,.3);
+	padding:0 10px;
+	border-radius:40px;
+	line-height:33px;
+	font-size:16px;
+	border-right:0;
+}
+#loghead>div>button{
+	width:33px;height:33px;
+	background-image:url("../image/sousuo.jpg");
+	background-size:33px;
+	border-radius:50%;
+	border:0;margin:1px 0 0 -26px;
+}
+#loghead>div>a{
+	width:150px;height:35px;
+	margin-left:20px;
+	background:url(../image/shujia.jpg) no-repeat 0px 6px;	
+	background-size:23px;
+	line-height:34px
+}
+/*主体*/
+#leftnav{
+	width:134px;
+	padding-left:30px;
+	float:left;
+}
+#leftnav ul{
+	padding-left:10px;
+}
+
+#leftnav li,#leftnav h3{
+	display:block;
+	padding-left:34px;
+	color:#999;
+	font-size:16px;
+	margin-bottom:10px;
+	background:url(../image/jingling.png) no-repeat;
+}
+#leftnav a{
+	text-align:left;
+	color:#333;
+}
+#leftnav a:hover{
+	text-align:left;
+	color:#ff4c2f;
+}
+#leftnav>div>h3{
+	border-bottom:1px solid #e5e5e5;
+	height:28px;width:80px;
+}
+#leftnav>div:first-child>h3{
+	background-position:0 -5px;
+}
+#leftnav>div:first-child>ul>li:first-child{
+	background-position:0 -52px;
+}
+#leftnav>div:first-child>ul>li:nth-child(2){
+	background-position:0 -86px;
+}
+#leftnav>div:first-child>ul>li:last-child{
+	background-position:0 -120px;
+}
+
+
+#leftnav>div:nth-child(2)>h3{
+	background-position:0 -167px;
+}
+#leftnav>div:nth-child(2)>ul>li:first-child{
+	background-position:0 -216px;
+}
+#leftnav>div:nth-child(2)>ul>li:nth-child(2){
+	background-position:0 -249px;
+}
+#leftnav>div:nth-child(2)>ul>li:last-child{
+	background-position:0 -284px;
+}
+
+#leftnav>div:nth-child(3)>h3{
+	background-position:0 -333px;
+}
+#leftnav>div:nth-child(3)>ul>li:first-child{
+	background-position:0 -378px;
+}
+
+#leftnav>div:nth-child(4)>h3{
+	background-position:0 -428px;
+}
+#leftnav>div:nth-child(4)>ul>li:first-child{
+	background-position:0 -472px;
+}
+
+#leftnav>div:last-child>h3{
+	background-position:0 -521px;
+}
+#leftnav>div:last-child>ul>li:first-child{
+	background-position:0 -567px;
+}
+
+#user_body div{
+	margin-bottom:10px;
+	float:left;
+}
+#user_body>div:nth-child(2){
+	width:767px;
+}
+#info{
+	height:225px;width:1000px;
+}
+#bookstack{
+	height:150px;width:770px;
+}
+#readbook{
+	height:150px;width:770px;
+}
+#cai{
+	height:315px;width:215px;
+	margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

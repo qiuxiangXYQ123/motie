@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>排行</title>
+    <link rel="stylesheet" href="../css/qiuxiang.css">
+    <link rel="stylesheet" href="../css/paihang.css">
+</head>
+<body>
+    
+<!--顶部导航-->
+<nav id="maxnav" class="d-md-none d-lg-block">
+    <ul>
+        <li>
+            <a href="#">磨铁文学</a>
+        </li>
+        <li>
+            <a href="#" class="bg-white">磨铁中文网</a>
+        </li>
+        <li>
+            <a href="#">锦文小说网</a>
+        </li>
+        <li>
+            <a href="#">墨墨言情网</a>
+        </li>
+        <li>
+            <a href="#">逸云书院</a>
+        </li>
+        <li>
+            <a href="#">醉唐中文网</a>
+        </li>
+        <li class="fr headnav">
+            <a href="#">登录</a>
+        </li>
+        <li class="fr headnav">
+            <a href="#">注册</a>
+        </li>
+    </ul>
+</nav>
+<!--总体section-->
+
+<section id="body" class="w-100 after">
+<!-- 头部-->
+    <header id="loghead">
+        <header>
+            <img src="../image/log.jpg" alt="">
+            <!-- 搜索 -->
+            <div class="fr">
+                <input type="text" placeholder="搜索" class="fl">
+                <button class="fl"></button>
+                <a href="" class="fl">我的书架</a>
+            </div>
+        </header>
+        <nav>
+			<ul>
+				<li>
+					<a href="http://127.0.0.1:5500/html/index.html" >首页</a>
+				</li>
+				<li>
+					<a href="http://127.0.0.1:5500/html/qiuxiang_book.html">书库</a>
+				</li>
+				<li>
+					<a href="http://127.0.0.1:5500/html/paihang.html" class="bg-gray">排行</a>
+				</li>
+				<li>
+					<a href="http://127.0.0.1:5500/html/zuojia_login.html">作家专区</a>
+				</li>
+			</ul>
+		</nav>
+    </header>
+    <!-- 左边的导航栏  -->
+    <section id="leftnav" class="fl">
+        <a href="#" class="font-16" onclick="ph_all()"
+        id="all">全部榜单</a>
+        <a href="#" class="font-14" onclick="ph_cx()" id="cx">畅销榜</a>
+        <a href="#" class="font-14" onclick="ph_dj()"
+        id="dj">点击榜</a>
+        <a href="#" class="font-14" onclick="ph_ds()"
+        id="ds">打赏榜</a>
+        <a href="#" class="font-14" onclick="ph_tj()"
+        id="tj">推荐榜</a>
+        <a href="#" class="font-14" onclick="ph_xs()"
+        id="xs">新书榜</a>
+        <a href="#" class="font-14" onclick="ph_gx()"
+        id="gx">更新榜</a>
+        <a href="#" class="font-14" onclick="ph_cs()"
+        id="cs">财神榜</a>
+    </section>
+    <!-- 右边主体 -->
+    <section id="rightbody" class="fl"> 
+        <section class="w-100 box mb-15 after" id="paihang">
+            <div class="fl paihang">
+                <h3 class="inline-b">畅销榜</h3>
+                <a href="">更多</a>
+                <hr class="mb-10">
+                <ul>
+                    <li>
+                        <span class="vertical-m bg-orange">1</span>
+                        <a href="#"><img class="vertical-m" src="../image/3 (1).jpg" alt=""/></a>
+                        <div class="vertical-m inline-b">
+                            <a href="">诡命法医</a>
+                            <br/>
+                            <span>作者：</span>
+                            <a href="">天工匠人</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="bg-orange">2</span>
+                        <a href="">龙王妻</a>
+                    </li>
+                    <li>
+                        <span class="bg-orange">3</span>
+                        <a href="">山海传人</a>
+                    </li>
+                    <li>
+                        <span class="bg-blodgray">4</span>
+                        <a href="">末代3 太爷传奇</a>
+                    </li>
+                    <li>
+                        <span class="bg-blodgray">5</span>
+                        <a href="">地府微信群</a>
+                    </li>
+                    <li>
+                        <span class="bg-blodgray">6</span>
+                        <a href="">黄泉密码</a>
+                    </li>
+                    <li>
+                        <span class="bg-blodgray">7</span>
+                        <a href="">地煞七十二变</a>
+                    </li>
+                    <li>
+                        <span class="bg-blodgray">8</span>
+                        <a href="">废柴奇遇之厄运起源</a>
+                    </li>
+                    <li>
+                        <span class="bg-blodgray">9</span>
+                        <a href="">茅山诡术师</a>
+                    </li>
+                    <li>
+                        <span class="bg-blodgray">10</span>
+                        <a href="">葬诡经</a>
+                    </li>
+                </ul>
+            </div>
+        </section>    
+    </section>
+</section>
+
+
+<div id="tankuang">
+	<!-- 登录 -->
+	<section>
+		<span class="fr">x</span>
+			<ul>
+				<li>
+				   <a href="">账号登录</a> 
+				</li>
+				<li>
+				   <a href="">QQ登录</a> 
+				</li>
+			</ul>
+			<br>
+			<input id="d_uname" type="text" placeholder="用户名">
+			<br>
+			<input id="d_upwd" type="password" placeholder="密码">
+			<br>
+			<input id="d_yz" type="text" placeholder="验证码">
+	
+			<div onclick="code()" id="codes">3e4F</div>
+	
+			<br>
+			<button class="mb-10">登录</button>
+			<div class="text-center mb-5">
+				<a class="font-14" href="http://127.0.0.1:5500/html/zuojia_reg.html">我要注册 </a>
+				|
+				<a class="font-14" href=""> 忘记密码</a>
+			</div>
+		   
+			<div class="text-center">
+				<input id="d_bool" type="checkbox">
+				<span class="font-12">
+					同意
+					<a href="" class="text-bluelight">《用户服务协议》</a>
+					和
+				   <a href="" class="text-bluelight">《隐私政策》</a> 
+				</span>  
+			</div>
+			
+		</section>
+	<!-- 注册 -->
+	<section>
+			<span class="fr">x</span>
+			<ul>
+				<li>
+				   <a href="">邮箱注册</a> 
+				</li>
+				<li>
+				   <a href="">手机注册</a> 
+				</li>
+			</ul>
+			<br>
+			<input id="email" type="text" placeholder="邮箱">
+			<input id="z_uname" type="text" placeholder="用户名">
+			<br>
+			<input id="z_upwd" type="password" placeholder="密码">
+			<br>
+			<input id="z_cpwd" type="password" placeholder="确认密码">
+			<input id="z_yz" type="text" placeholder="验证码">
+	
+			<div onclick="code()" id="codes">3e4F</div>
+	
+			<br>
+			<button class="mb-10">注册</button>
+			
+		   
+			<div class="text-center fl">
+				<input id="z_bool" type="checkbox">
+				<span class="font-12">
+					同意
+					<a href="" class="text-bluelight">《用户注册服务协议》</a>
+				</span>  
+			</div>
+			<div class="text-center mt-5 fr font-12">
+				已有账号? <a class="font-12 text-bluelight" href="http://127.0.0.1:5500/html/zuojia_login.html">立即登录</a>
+			</div>
+	
+		</section>
+</div>
+
+
+<footer id="footer">
+	<section class="before">
+		<div class="w-100 qixia">
+			<div class="after">
+				<a href="#">磨铁旗下网站：</a>
+				<a href="#">磨铁文学</a>
+				<a href="#">磨铁中文网</a>
+				<a href="#">锦文小说网</a>
+				<a href="#">墨墨言情网</a>
+				<a href="#">逸云书院</a>
+				<a href="#">醉唐中文网</a>
+			</div>
+			<div class="after">
+				<a href="#">关于我们</a>
+				<a href="#">联系我们</a>
+				<a href="#">加入我们</a>
+				<a href="#">帮助中心</a>
+				<a href="#">网站地图</a>
+			</div>
+		</div>
+		<p class="text-gray text-center">
+			Copyright © 2011-2019 Motie.com All Rights Reserved.   北京磨铁数盟信息技术有限公司 版权所有
+			<br>
+			新出网证京字162号  丨 文网文[2015]1982-355号  丨 京ICP证110262号  经营性网站备案信息   丨 京ICP备11010626号-1 
+			<br>
+		</p>
+		<div class="w-100 baojing after">
+			<a href="#">经营性网站备案信息 |&nbsp;</a>
+			<a href="#"> 网络违法犯罪举报 |&nbsp;</a>
+			<a href="#"> 中国互联网举报中心 |&nbsp;</a>
+			<a href="#"> 网络举报APP下载</a>
+		</div><br>
+		<div class="w-100 gongan">
+			<img class="inline-b vertical-m" src="../image/gongan.png" >
+			<a class="inline-b vertical-m" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502034287">
+				京公网安备 11010502034287号
+			</a>
+		</div>
+	</section>
+</footer>
+
+</body>
+<script src="../js/index.js"></script>
+</html>

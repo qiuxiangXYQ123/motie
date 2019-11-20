@@ -1,0 +1,108 @@
+*{
+    margin: 0;padding:0;
+}
+.text-bluelight{color:#21ade5;}
+.mb-5{margin-bottom:5px;}
+.mb-10{margin-bottom:10px;}
+.mb-15{margin-bottom:30px;}
+.ml-5{margin-left:5px;}
+.ml-10{margin-left:10px;}
+.ml-15{margin-left:15px;}
+.mr-5{margin-right:5px;}
+.mr-10{margin-right:10px;}
+.mr-15{margin-right:15px;}
+.mr-30{margin-right:30px;}
+.mt-5{margin-top:5px;}
+.mt-10{margin-top:10px;}
+.mt-15{margin-top:30px;}
+.ml-1{margin-left:1%;}
+.pt-5{padding-top:5px;}
+.pt-10{padding-top:10px;}
+.pt-15{padding-top:15px;}
+.pl-5{padding-left:5px;}
+.pl-10{padding-left:10px;}
+.pl-15{padding-left:15px;}
+.pr-5{padding-right:5px;}
+.pr-10{padding-right:10px;}
+.pr-15{padding-right:15px;}
+.pb-5{padding-bottom:5px;}
+.pb-10{padding-bottom:10px;}
+.pb-15{padding-bottom:15px;}
+a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color:#333;
+}
+ul{list-style:none;}
+body{
+    background:url("../image/背景.jpg") no-repeat 0px -100px;
+    background-size:over;
+}
+header{
+    background: #fff;
+    width:100%;
+    height:70px;
+}
+header img{
+    margin:22px 0 0 160px;
+}
+section{
+    width:280px;
+    background:white;
+    position: absolute;
+    top:20%;left:10%;
+    padding:40px 30px;
+    border-radius: 4px;
+}
+#zname,#zpwd,#yz{
+    width:85%;
+    height:28px;
+    padding:5px 10% 5px 5%;
+    line-height:28px;
+    font-size:14px;
+    margin-top:15px;
+    border-radius: 3px;
+    border:1px solid #999;
+}
+#yz{
+    width:35%;
+}
+section li{
+    padding-bottom:15px; 
+    width:50%;
+    text-align: center;
+    float: left;
+    border-bottom: 3px solid #eee;
+    margin-bottom: 20px;
+}
+section li:first-child{
+    border-bottom-color: #21ade5;
+}
+button{
+    width:100%;
+    height:40px;
+    color:white;
+    background: #21ade5;
+    border-radius: 5px;
+    text-shadow:0;
+    border:0;
+    outline:0;
+    cursor:pointer;
+}
+button:active{transform:scale(0.98,0.98);}
+.font-14{font-size:14px;}
+.font-12{font-size:12px;}
+.text-center{text-align: center;}
+#codes{
+    width:100px; height:40px;
+    background:#ccc;
+    font-family:'chiller';
+    float:right;
+    font-size:28px;
+    text-align: center;
+    line-height: 40px;
+    margin:15px 0 20px;
+    border-radius: 5px;
+
+}

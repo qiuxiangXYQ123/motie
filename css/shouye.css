@@ -1,0 +1,175 @@
+
+/*第一层  分类及轮播*/
+#onelou>div:first-child{
+	border-right:6px solid white;
+	border-top:3px solid white;
+	width:25%;box-sizing:border-box;
+}
+#onelou>div:first-child li{
+	float:left;
+	width:50%
+}
+#onelou>div:first-child li>a,#onelou>div:first-child li:first-child{
+	width:100%;	height:50px;
+	counter-reset: #666;
+	line-height:60px;
+}
+#onelou>div:first-child li:first-child{
+	font-size:20px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+}
+#onelou>.carousel{
+	width:75%;
+}
+
+/*第二层*/
+#sectwo{
+	margin-top:20px;
+}
+#sectwo>div:first-child{
+	width:24%;
+	float:left;
+	margin-left:1%;
+}
+#sectwo h3{
+	margin-bottom:30px;
+}
+#sectwo ul{
+	height:200px;
+}
+#sectwo li{
+	width:95%;height:12.5%;
+	line-height:12.5%;
+}
+#sectwo li>a{
+	text-align:left;
+	font-size:14px;
+}
+#sectwo>div:last-child{
+	width:74%;
+	float:left;
+}
+#sectwo>div:last-child>div{
+	width:100%;
+	height:200px;
+	display:flex;
+	flex-wrap:wrap;
+}
+#sectwo>div:last-child>div>a{
+	float:left;
+	flex:0 0 20%;
+	max-width:20%;
+}
+#sectwo img:hover{
+	transform:scale(1.05,1.05); 
+}
+#sectwo img{
+	transition:0.5s 
+}
+#sectwo p:nth-child(2){
+	color:black;
+}
+#sectwo p:last-child{
+	font-size:13px;
+}
+/*广告*/
+.gg img{
+	width:100%;
+	margin:10px 0;
+}
+/*第三层  分类首推和本周强推*/
+#secthree{
+	padding-left:1%;
+	margin:15px 0 10px;
+}
+#secthree h3{
+	margin-bottom:10px;
+}
+#secthree>div:first-child{
+	width:80%;
+}
+#secthree>div:last-child{
+	width:20%;
+}
+
+.book-fenlei{
+	width:50%;
+} 
+.book-fenlei>div>a{	
+	width:20%;
+}
+.book-fenlei>div>a>img{	
+	width:100%;
+}
+.book-fenlei>div>div{	
+	width:80%;
+	box-sizing:border-box;
+}
+#secthree button{
+	width:40px;
+	border-radius:20px;
+	border:1px solid #666;
+}
+
+#secthree td,#secthree td>a{
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+}
+#secthree td>a{
+	font-size:14px;
+	text-align:left;
+	color:#222;
+	display:inline-block;
+}
+#secthree table img{
+	width:60px;
+	display:none;
+}
+#secthree tr:hover img{
+	display:inline;
+	float:left;
+}
+.td-100{
+	width:60px;
+}
+/*排行榜*/
+.paihang li>span{
+	display:inline-block;
+	width:25px;height:25px;
+	border-radius:50%;
+	text-align:center;
+	line-height:25px;
+	color:white;
+	margin-right:1rem;
+}
+#paihang a{
+	display:inline-block;
+}
+#paihang img{
+	display:inline;
+}
+#paihang li{
+	height:43px;
+}
+#paihang div:first-child li:first-child{
+	height:72px;
+}
+#paihang li:first-child{
+	height:98px;
+}
+#paihang a,#paihang span{
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
